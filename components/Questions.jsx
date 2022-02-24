@@ -5,7 +5,7 @@ const Questions = () => {
     <>
       <h1>Frequently Asked Questions</h1>
       <p>Here are some of our FAQs. If you have any other questions you'd like answereded please feel free to email us.</p>
-      <details>
+      <details >
         <sumary>What is Bookmark?</sumary>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur assumenda, ratione aliquid culpa, illo facilis reiciendis quidem similique fuga nemo minima eveniet. Autem pariatur, neque quidem nesciunt nihil voluptatem officia!</p>
       </details>
@@ -21,7 +21,7 @@ const Questions = () => {
         <sumary>What about Chromium browsers?</sumary>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur assumenda, ratione aliquid culpa, illo facilis reiciendis quidem similique fuga nemo minima eveniet. Autem pariatur, neque quidem nesciunt nihil voluptatem officia!</p>
       </details>
-      <Button primary>More info</Button>
+      <Button primary>Back to Home</Button>
     </>
   )
 }
