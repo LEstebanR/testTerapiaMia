@@ -23,6 +23,11 @@ const Button = styled.button`
     color: hsl(0, 0%, 0%);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   `}
+
+  ${props => props.red && css`
+    background-color: hsl(0, 94%, 66%);
+    color: white;
+  `}
 `
 
 export default Button;

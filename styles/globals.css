@@ -101,3 +101,87 @@ p{
   padding: 15px 0 0 0;
   border-top: 3px dotted hsl(229, 8%, 60%);
 }
+
+.arrowDown{
+    font-size: 25px;
+}
+
+.arrowUp{
+  font-size: 25px;
+  color: red
+}
+
+.question-container{
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.answerHidden{
+  display: none;
+}
+
+.answerShow{
+  display: block;
+  text-align: left !important;
+  font-size: 1.3rem;
+}
+
+.divisor{
+  width: 90%
+}
+
+.question{
+  text-align: left;
+  font-style: bold;
+  color:hsl(229, 31%, 21%)
+}
+
+.question-button-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.form-container{
+  background-color: hsl(231, 69%, 60%);
+  padding: 50px 0 50px 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px
+}
+
+.form-container p{
+  color: white
+
+}
+
+.form-container form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px
+
+}
+
+.form-container h2{
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.form-container input{
+  width: 75%;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid hsl(229, 8%, 60%);
+  border-radius: 5px;
+  font-size: 1.3rem;
+  color: hsl(229, 8%, 60%);
+  background-color: hsl(229, 8%, 93%);
+}
