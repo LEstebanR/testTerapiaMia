@@ -3,9 +3,10 @@ import { css } from "styled-components";
 
 
 const Button = styled.button`
-  margin: 0 35px;
+  margin: 10px;
   width: 40%;
-  min-width: 200px;
+  min-width: 180px;
+  max-width: 300px;
   height: 50px;
   border-radius: 5px;
   border: none;
@@ -28,6 +29,8 @@ const Button = styled.button`
     background-color: hsl(0, 94%, 66%);
     color: white;
   `}
+
+
 `
 
 export default Button;

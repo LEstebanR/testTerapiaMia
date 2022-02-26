@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import Footer from '../components/Footer'
 import  Header  from '../components/Header'
 import Intro from '../components/Intro'
@@ -8,9 +9,10 @@ import Form from '../components/Form'
 import styles from '../styles/Home.module.css'
 
 const Home = () => {
+  const [showMenu, setShowMenu] = useState(false)
   return (
     <>
-      <Header/>
+      <Header setShowMenu={setShowMenu} showMenu={showMenu}/>
       <Intro/>
       <Features/>
       <Download/>
