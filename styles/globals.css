@@ -354,6 +354,25 @@ p{
   margin-top: 50px;
 }
 
+.intro img{
+  background: url('https://res.cloudinary.com/lesteban/image/upload/v1645844344/terapiamia/custom_blue_shapes_jbl59y.png') no-repeat right bottom;
+  background-size: 80%
+}
+
+.image-container{
+  background: url('https://res.cloudinary.com/lesteban/image/upload/v1645844880/terapiamia/template_primary_ko8btr.jpg') no-repeat left bottom;
+  background-size: 70%;
+  width: 100%;
+} 
+
+.image-container img{
+  width: 80%;
+  margin-left: 10%;
+  
+}
+
+
+
 @media  screen and (min-width: 1440px) {
 
   .header{
@@ -401,7 +420,8 @@ p{
   }
 
   .intro{
-    width: 80%;
+    width: 100%;
+    
     margin: 0 auto;
     display: flex;
     flex-direction: row-reverse;
@@ -427,7 +447,7 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80vw;
+    width: 100vw;
     margin: 0 auto;
   }
 
@@ -519,7 +539,7 @@ p{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 150px;
+    height: 100px;
   }
 
   .footer-options{
@@ -528,6 +548,11 @@ p{
     justify-content: flex-start;
     gap: 25px;
     width: 50%;
+  }
+
+  .logo:hover{
+    color: hsl(0, 94%, 66%);
+
   }
 
 
