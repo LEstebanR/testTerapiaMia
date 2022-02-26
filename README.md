@@ -16,7 +16,7 @@ This is a solution to the [Bookmark landing page challenge on Frontend Mentor](h
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
@@ -31,9 +31,7 @@ Users should be able to:
   - The email address is not formatted correctly
 
 ### Screenshot
-
-![](/home/lesteban/Imágenes/Captura de pantalla de 2022-02-25 22-20-58.png)
-
+![Captura de pantalla 2022-02-25 a las 16 43 28](https://user-images.githubusercontent.com/60658401/155827298-95ab6425-adf4-4bd2-9492-ca1fd9a6b7c2.png)
 
 
 ### Links
