@@ -70,9 +70,3 @@ This is part of a test for a job so I has limited time. I Can improve the soluti
 - Vercel for Deploy
 - Next Js 
 
-## Author
-
-- Website - [PortFolio](https://lestebanr.github.io/portfolio/)
-- Frontend Mentor - [@LEstebanR](https://www.frontendmentor.io/profile/LEstebanR)
-- Twitter - [@LuisEstebanRC](https://twitter.com/LuisEstebanRC)
-
